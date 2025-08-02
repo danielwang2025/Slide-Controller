@@ -46,30 +46,29 @@ Ensure you have the following installed:
     ```
 
 2. Use the following controls:
-
-    ### Hand Gestures:
-        Move your right hand to the right → Next slide.
-        Move your left hand to the left → Previous slide.
-    ### Voice Commands:
-        Say "next slide" → Next slide.
-        Say "go back" → Previous slide.
+    - **Hand Gestures**:
+        - Move your right hand to the right → Next slide.
+        - Move your left hand to the left → Previous slide.
+    - **Voice Commands**:
+        - Say "next slide" → Next slide.
+        - Say "go back" → Previous slide.
 3. Press `q` to exit the application.
 
 ## How It Works
-### Hand Gesture Recognition:
-    Uses MediaPipe's hand tracking solution to detect hand landmarks.
-    Tracks the movement of the hand to determine gestures.
-### Voice Command Recognition:
-    Captures audio in real-time using sounddevice.
-    Processes audio with the Whisper model to recognize commands.
+- **Hand Gesture Recognition**:
+    - Uses MediaPipe's hand tracking solution to detect hand landmarks.
+    - Tracks the movement of the hand to determine gestures.
+- **Voice Command Recognition**:
+    - Captures audio in real-time using sounddevice.
+    - Processes audio with the Whisper model to recognize commands.
 
 ## Troubleshooting
-### Webcam Issues:
-    Ensure your webcam is connected and not being used by another application.
-    If the script fails to open the webcam, check your system's camera permissions.
-### Audio Issues:
-    Ensure your microphone is connected and functional.
-    Check your system's microphone permissions if audio capture fails.
+- **Webcam Issues**:
+    - Ensure your webcam is connected and not being used by another application.
+    - If the script fails to open the webcam, check your system's camera permissions.
+- **Audio Issues**:
+    - Ensure your microphone is connected and functional.
+    - Check your system's microphone permissions if audio capture fails.
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
