@@ -1,6 +1,7 @@
 # Slide Controller with Hand Gestures and Voice Commands
 
 This project allows you to control slide navigation in presentations using hand gestures and voice commands. It leverages **MediaPipe** for hand gesture recognition and **Whisper** for voice command recognition.
+Demo Video: https://youtu.be/2SK_yy2Jn0c
 
 ## Features
 
