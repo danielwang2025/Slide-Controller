@@ -1,6 +1,8 @@
-opencv-python
-mediapipe
-numpy
-pyautogui
+numpy==1.26.4 
+protobuf==4.25.3 
+huggingface_hub==0.23.0 
+faster-whisper==1.1.1 
+opencv-python 
+mediapipe 
+pyautogui 
 sounddevice
-faster-whisper
